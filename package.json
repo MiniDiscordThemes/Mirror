@@ -1,8 +1,8 @@
 {
-  "name": "template-discord-theme",
-  "version": "1.1.2",
-  "description": "A template Discord theme for multiple client mod support.",
-  "repository": "github:MiniDiscordThemes/Template",
+  "name": "mirror-discord-theme",
+  "version": "1.0.0",
+  "description": "Mirrors Discord from left to right.",
+  "repository": "github:MiniDiscordThemes/Mirror",
   "author": "Saltssaumure <themes@saltssaumure.net>",
   "license": "MIT",
   "private": true,

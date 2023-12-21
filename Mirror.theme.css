@@ -1,0 +1,20 @@
+/**
+ * @name Mirror
+ * @author Saltssaumure
+ * @authorLink https://github.com/Saltssaumure
+ * @description Mirrors Discord from left to right.
+ * @license MIT
+ * @version 1.0
+ * @invite uy8nKQVatp
+ * @source https://github.com/MiniDiscordThemes/Mirror
+ * @donate https://ko-fi.com/saltssaumure
+*/
+
+@import url("https://minidiscordthemes.github.io/Mirror/mirror.min.css");
+
+/* See https://github.com/MiniDiscordThemes/Mirror#customisation for customisation settings. */
+:root {
+    --temp-bg-color: #000;
+    --temp-scanline: block;
+    --temp-flicker: none;
+}
