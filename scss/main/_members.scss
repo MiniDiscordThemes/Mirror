@@ -6,11 +6,11 @@
     margin-right: 8px;
 
     // Avatar
-    .avatar__6337f {
+    @at-root .avatar__6337f {
         margin-right: 0;
         margin-left: 12px;
 
-        .svg_f5b652 {
+        & .svg_f5b652 {
             left: 0;
         }
     }

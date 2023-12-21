@@ -157,3 +157,29 @@
         }
     }
 }
+
+// Chat box
+.sansAttachButton__996a4 {
+    padding-left: unset;
+    padding-right: 16px;
+
+    // Attach button
+    @at-root .attachButton_eba568 {
+        margin-left: unset;
+        margin-right: -16px;
+    }
+
+    // Typing area
+    @at-root .slateTextArea__0661c {
+        padding-right: 0;
+        padding-left: 10px;
+        left: 10px;
+        right: 0;
+    }
+
+    // Buttons
+    @at-root .webkit__8d35a .buttons_ce5b56 {
+        margin-right: unset;
+        margin-left: -6px;
+    }
+}
