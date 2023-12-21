@@ -1,0 +1,12 @@
+// Server list
+
+// Flip pill to right side
+:is(.pill__6b31b, .pill__13f64) {
+    left: unset;
+    right: 0;
+
+    .item_f9d377 {
+        border-radius: 4px 0 0 4px;
+        margin-left: 4px;
+    }
+}
