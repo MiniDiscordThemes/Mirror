@@ -1,0 +1,185 @@
+@use "../testing" as *;
+
+// Messages
+.wrapper__09ecc {
+    padding-right: unset;
+    padding-left: var(--custom-message-margin-horizontal);
+
+    &.cozy_f5c119 {
+        padding-left: unset;
+        padding-right: var(--custom-message-margin-left-content-cozy) !important;
+    }
+    &.compact__54ecc {
+        padding-left: unset;
+        padding-right: var(--custom-message-margin-compact-indent) !important;
+    }
+
+    // Messages cont.
+    @at-root .message__80c10 {
+        padding-left: 48px !important;
+    }
+
+    // Mentioned messages
+    @at-root .mentioned__58017 {
+        &::before {
+            left: unset;
+            right: 0;
+        }
+    }
+
+    // Replied to message preview
+    @at-root .repliedMessage_e2bf4a {
+        direction: rtl;
+        gap: var(--custom-message-meta-space);
+
+        .compact__54ecc & {
+            --text-indent: calc((var(--custom-message-margin-compact-indent) - 1rem) * -1);
+            margin-left: unset;
+            padding-left: unset;
+            padding-right: var(--custom-message-reply-indent);
+        }
+
+        &::before {
+            right: calc(-1 * (0.5 * var(--avatar-size) + var(--gutter)));
+            left: 100%;
+            margin-right: -1px;
+            margin-left: var(--reply-spacing);
+            border-right-width: var(--spine-width);
+            border-left-width: 0;
+            border-top-right-radius: 6px;
+            border-top-left-radius: 0;
+
+            .compact__54ecc & {
+                left: calc(100% - var(--custom-message-reply-indent));
+                right: calc(-1 * (0.5 * var(--avatar-size) + var(--gutter)));
+            }
+        }
+
+        @at-root .threadMessageAccessoryAvatar__4ccbb,
+            .replyAvatar_cea07c,
+            .replyBadge__3d01e,
+            .executedCommandAvatar__939bc,
+            .repliedMessage_e2bf4a .username_d30d99,
+            .repliedMessage_e2bf4a .roleDot_c01716,
+            .executedCommand_e8859a .username_d30d99,
+            .executedCommand_e8859a .applicationName__359c6,
+            .executedCommand_e8859a .commandName_a0875b,
+            .threadMessageAccessory__33bc1 .username_d30d99 {
+            margin-right: 0;
+        }
+    }
+
+    // Message text content
+    @at-root .contents_f41bb2 {
+        .compact__54ecc & {
+            margin-left: unset;
+            margin-right: calc(-1 * var(--custom-message-margin-compact-indent));
+            padding-left: unset;
+            padding-right: var(--custom-message-margin-compact-indent);
+            @include test;
+        }
+
+        // Avatar (cosy mode only)
+        @at-root .avatar__08316 {
+            left: unset;
+            right: var(--custom-message-margin-horizontal);
+        }
+
+        // Header
+        @at-root .header__39b23 {
+            .cozy_f5c119 & {
+                direction: rtl;
+                @include test;
+            }
+
+            // Timestamp
+            @at-root .cozy_f5c119 .timestamp_cdbd93.alt__6c563,
+                .compact__54ecc .timestamp_cdbd93 {
+                margin-right: unset;
+                margin-left: var(--custom-message-meta-space);
+            }
+
+            @at-root .roleDot_c01716,
+                .cozy_f5c119 .headerText_f47574,
+                .compact__54ecc .headerText_f47574 {
+                margin-right: unset;
+                margin-left: 0.25rem;
+            }
+
+            @at-root .timestampInline__470e0 {
+                margin-left: unset;
+                margin-right: 0.25rem;
+            }
+        }
+
+        // Actual content
+        @at-root .cozy_f5c119 .messageContent__21e69 {
+            margin-left: unset;
+            margin-right: calc(-1 * var(--custom-message-margin-left-content-cozy));
+            padding-left: unset;
+            padding-right: var(--custom-message-margin-left-content-cozy);
+            @include test;
+
+            // Block quote
+            @at-root .blockquoteContainer_f24d1f {
+                direction: rtl;
+            }
+        }
+    }
+
+    // Message attachment content
+    @at-root .container_dbadf5 {
+        direction: rtl;
+
+        // Embed links
+        @at-root .embedFull__8dc21 {
+            border-left: unset;
+            border-right: 4px solid var(--background-tertiary);
+
+            @at-root .embedSuppressButton_df9a75 {
+                right: unset;
+                left: -20px;
+            }
+        }
+    }
+
+    // Chat message actions
+    @at-root .buttonContainer_dd4b62 {
+        right: unset;
+        left: 0;
+
+        @at-root .container__9d616 {
+            direction: rtl;
+            right: unset;
+            left: 0;
+            padding-right: 32px;
+            padding-left: 14px;
+        }
+    }
+}
+
+// Chat box
+.sansAttachButton__996a4 {
+    padding-left: unset;
+    padding-right: 16px;
+
+    // Attach button
+    @at-root .attachButton_eba568 {
+        margin-left: unset;
+        margin-right: -16px;
+    }
+
+    // Typing area
+    @at-root .slateTextArea__0661c {
+        padding-right: 0;
+        padding-left: 10px;
+        left: 10px;
+        right: 0;
+    }
+
+    // Buttons
+    @at-root .webkit__8d35a .buttons_ce5b56 {
+        margin-right: unset;
+        margin-left: -6px;
+    }
+}

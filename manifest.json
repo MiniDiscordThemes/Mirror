@@ -1,22 +1,22 @@
 {
-  "id": "net.saltssaumure.Template",
-  "name": "Template",
-  "description": "A template theme for multiple client mod support.",
+  "id": "net.saltssaumure.Mirror",
+  "name": "Mirror",
+  "description": "Mirrors Discord from left to right.",
   "author": {
     "name": "Saltssaumure",
     "discordID": "134142022092062720",
     "github": "Saltssaumure"
   },
-  "version": "1.1.2",
+  "version": "1.0.0",
   "updater": {
-    "type": "store",
-    "id": "net.saltssaumure.Template"
+    "type": "github",
+    "id": "MiniDiscordThemes/Mirror"
   },
   "license": "MIT",
   "type": "replugged-theme",
-  "main": "scss/temp.scss",
-  "source": "https://github.com/MiniDiscordThemes/Template",
+  "main": "scss/mirror.scss",
+  "source": "https://github.com/MiniDiscordThemes/Mirror",
   "image": [
-    "https://cdn.discordapp.com/attachments/946226984005025835/1140494116451532810/template1.png"
+    "https://cdn.discordapp.com/attachments/946226984005025835/1140494116451532810/Mirror1.png"
   ]
 }
