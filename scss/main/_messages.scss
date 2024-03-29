@@ -1,7 +1,7 @@
 @use "../testing" as *;
 
 // Messages
-.wrapper__09ecc {
+.wrapper_a62503 {
     padding-right: unset;
     padding-left: var(--custom-message-margin-horizontal);
 
@@ -9,18 +9,18 @@
         padding-left: unset;
         padding-right: var(--custom-message-margin-left-content-cozy) !important;
     }
-    &.compact__54ecc {
+    &.compact_eda3c8 {
         padding-left: unset;
         padding-right: var(--custom-message-margin-compact-indent) !important;
     }
 
     // Messages cont.
-    @at-root .message__80c10 {
+    @at-root .message_ccca67 {
         padding-left: 48px !important;
     }
 
     // Mentioned messages
-    @at-root .mentioned__58017 {
+    @at-root .mentioned_fa6fd2 {
         &::before {
             left: unset;
             right: 0;
@@ -28,11 +28,11 @@
     }
 
     // Replied to message preview
-    @at-root .repliedMessage_e2bf4a {
+    @at-root .repliedMessage__636d2 {
         direction: rtl;
         gap: var(--custom-message-meta-space);
 
-        .compact__54ecc & {
+        .compact_eda3c8 & {
             --text-indent: calc((var(--custom-message-margin-compact-indent) - 1rem) * -1);
             margin-left: unset;
             padding-left: unset;
@@ -49,29 +49,29 @@
             border-top-right-radius: 6px;
             border-top-left-radius: 0;
 
-            .compact__54ecc & {
+            .compact_eda3c8 & {
                 left: calc(100% - var(--custom-message-reply-indent));
                 right: calc(-1 * (0.5 * var(--avatar-size) + var(--gutter)));
             }
         }
 
-        @at-root .threadMessageAccessoryAvatar__4ccbb,
-            .replyAvatar_cea07c,
-            .replyBadge__3d01e,
-            .executedCommandAvatar__939bc,
-            .repliedMessage_e2bf4a .username_d30d99,
-            .repliedMessage_e2bf4a .roleDot_c01716,
-            .executedCommand_e8859a .username_d30d99,
-            .executedCommand_e8859a .applicationName__359c6,
-            .executedCommand_e8859a .commandName_a0875b,
-            .threadMessageAccessory__33bc1 .username_d30d99 {
+        @at-root .threadMessageAccessoryAvatar__27333,
+            .replyAvatar__4ba85,
+            .replyBadge__37a84,
+            .executedCommandAvatar_cfc856,
+            .repliedMessage__636d2 .username__0b0e7,
+            .repliedMessage__636d2 .roleDot_f86e49,
+            .executedCommand__4fb1a .username__0b0e7,
+            .executedCommand__4fb1a .applicationName_d60e66,
+            .executedCommand__4fb1a .commandName_fd97e7,
+            .threadMessageAccessory_ef0459 .username__0b0e7 {
             margin-right: 0;
         }
     }
 
     // Message text content
-    @at-root .contents_f41bb2 {
-        .compact__54ecc & {
+    @at-root .contents_d3ae0d {
+        .compact_eda3c8 & {
             margin-left: unset;
             margin-right: calc(-1 * var(--custom-message-margin-compact-indent));
             padding-left: unset;
@@ -86,34 +86,34 @@
         }
 
         // Header
-        @at-root .header__39b23 {
+        @at-root .header__6a14d {
             .cozy_f5c119 & {
                 direction: rtl;
                 @include test;
             }
 
             // Timestamp
-            @at-root .cozy_f5c119 .timestamp_cdbd93.alt__6c563,
-                .compact__54ecc .timestamp_cdbd93 {
+            @at-root .cozy_f5c119 .timestamp_c79dd2.alt__6c563,
+                .compact_eda3c8 .timestamp_c79dd2 {
                 margin-right: unset;
                 margin-left: var(--custom-message-meta-space);
             }
 
-            @at-root .roleDot_c01716,
-                .cozy_f5c119 .headerText_f47574,
-                .compact__54ecc .headerText_f47574 {
+            @at-root .roleDot_f86e49,
+                .cozy_f5c119 .headerText_bd68ec,
+                .compact_eda3c8 .headerText_bd68ec {
                 margin-right: unset;
                 margin-left: 0.25rem;
             }
 
-            @at-root .timestampInline__470e0 {
+            @at-root .timestampInline__430cf {
                 margin-left: unset;
                 margin-right: 0.25rem;
             }
         }
 
         // Actual content
-        @at-root .cozy_f5c119 .messageContent__21e69 {
+        @at-root .cozy_f5c119 .messageContent_abea64 {
             margin-left: unset;
             margin-right: calc(-1 * var(--custom-message-margin-left-content-cozy));
             padding-left: unset;
@@ -121,22 +121,22 @@
             @include test;
 
             // Block quote
-            @at-root .blockquoteContainer_f24d1f {
+            @at-root .blockquoteContainer__66aaa {
                 direction: rtl;
             }
         }
     }
 
     // Message attachment content
-    @at-root .container_dbadf5 {
+    @at-root .container__62863 {
         direction: rtl;
 
         // Embed links
-        @at-root .embedFull__8dc21 {
+        @at-root .embedFull__14919 {
             border-left: unset;
             border-right: 4px solid var(--background-tertiary);
 
-            @at-root .embedSuppressButton_df9a75 {
+            @at-root .embedSuppressButton__5aae1 {
                 right: unset;
                 left: -20px;
             }
@@ -144,11 +144,11 @@
     }
 
     // Chat message actions
-    @at-root .buttonContainer_dd4b62 {
+    @at-root .buttonContainer__6de7e {
         right: unset;
         left: 0;
 
-        @at-root .container__9d616 {
+        @at-root .container__2f489 {
             direction: rtl;
             right: unset;
             left: 0;
@@ -159,18 +159,18 @@
 }
 
 // Chat box
-.sansAttachButton__996a4 {
+.sansAttachButton__5f863 {
     padding-left: unset;
     padding-right: 16px;
 
     // Attach button
-    @at-root .attachButton_eba568 {
+    @at-root .attachButton__5f6dc {
         margin-left: unset;
         margin-right: -16px;
     }
 
     // Typing area
-    @at-root .slateTextArea__0661c {
+    @at-root .slateTextArea_b19976 {
         padding-right: 0;
         padding-left: 10px;
         left: 10px;
@@ -178,7 +178,7 @@
     }
 
     // Buttons
-    @at-root .webkit__8d35a .buttons_ce5b56 {
+    @at-root .webkit__8d35a .buttons__7ecff {
         margin-right: unset;
         margin-left: -6px;
     }

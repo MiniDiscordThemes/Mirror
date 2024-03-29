@@ -1,43 +1,43 @@
 // Channels list
 
-.platform-win .sidebar_ded4b5 {
+.platform-win .sidebar_e031be {
     border-top-left-radius: 0;
     border-top-right-radius: 8px;
 }
 
 // Header
-.headerContent_ee8727 {
+.headerContent__6fcc7 {
     // Community server icon
-    @at-root .guildIconV2Container__53cdb {
+    @at-root .guildIconV2Container_ddc448 {
         margin-right: 0;
         margin-left: 8px;
     }
 
     // Server dropdown
-    @at-root .button__07e07 {
+    @at-root .button__84b6b {
         margin-left: 0;
         margin-right: 4px;
     }
 }
 
 // Boosting goal
-.container__4f639 {
+.container_bc43c1 {
     padding-right: 8px;
     padding-left: 0;
 
-    @at-root .progressBarContainer__9b571 {
+    @at-root .progressBarContainer_e11b41 {
         margin-right: 8px;
         margin-left: auto;
     }
 }
 
 // Channel
-.wrapper__7bcde {
+.wrapper__612a5 {
     margin-left: 0;
     margin-right: 8px;
 
     // Channel icon
-    @at-root .iconContainer__3f9b0 {
+    @at-root .iconContainer__6a580 {
         margin-right: 0;
         margin-left: 8px;
     }
@@ -57,12 +57,12 @@
 }
 
 // User area
-.avatarWrapper_ba5175 {
+.avatarWrapper__500a6 {
     margin-right: 0;
     margin-left: 8px;
 
-    @at-root .withTagAsButton_cc125f .nameTag__0e320,
-        .withTagless__98b7d .nameTag__0e320 {
+    @at-root .withTagAsButton_e22174 .nameTag__77ab2,
+        .withTagless__058f8 .nameTag__77ab2 {
         padding-left: unset;
         padding-right: 8px;
     }
